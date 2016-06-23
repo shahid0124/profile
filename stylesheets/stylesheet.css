@@ -132,35 +132,45 @@ h6 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* line 68, ../sass/stylesheet.scss */
+.intro-header h3 {
+  margin-top: 10px;
+}
+
 @media (max-width: 767px) {
-  /* line 67, ../sass/stylesheet.scss */
+  /* line 75, ../sass/stylesheet.scss */
   .intro-message {
     padding-bottom: 15%;
   }
 
-  /* line 71, ../sass/stylesheet.scss */
+  /* line 79, ../sass/stylesheet.scss */
   .intro-message > h1 {
     font-size: 3em;
   }
 
-  /* line 75, ../sass/stylesheet.scss */
+  /* line 83, ../sass/stylesheet.scss */
   ul.intro-social-buttons > li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  /* line 81, ../sass/stylesheet.scss */
+  /* line 89, ../sass/stylesheet.scss */
   ul.intro-social-buttons > li:last-child {
     margin-bottom: 0;
   }
 
-  /* line 85, ../sass/stylesheet.scss */
+  /* line 93, ../sass/stylesheet.scss */
   .intro-divider {
     width: 100%;
   }
+
+  /* line 102, ../sass/stylesheet.scss */
+  .content-section-projects .section-heading-spacer {
+    width: 350px !important;
+  }
 }
-/* line 90, ../sass/stylesheet.scss */
+/* line 109, ../sass/stylesheet.scss */
 .network-name {
   text-transform: uppercase;
   font-size: 14px;
@@ -168,32 +178,32 @@ h6 {
   letter-spacing: 2px;
 }
 
-/* line 97, ../sass/stylesheet.scss */
+/* line 116, ../sass/stylesheet.scss */
 .content-section-a {
   padding: 50px 0;
   background-color: #f8f8f8;
 }
 
-/* line 102, ../sass/stylesheet.scss */
+/* line 121, ../sass/stylesheet.scss */
 .content-section-b {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
 }
 
-/* line 108, ../sass/stylesheet.scss */
+/* line 127, ../sass/stylesheet.scss */
 .section-heading {
   margin-bottom: 30px;
 }
 
-/* line 112, ../sass/stylesheet.scss */
+/* line 131, ../sass/stylesheet.scss */
 .section-heading-spacer {
   float: left;
   width: 200px;
   border-top: 3px solid #e7e7e7;
 }
 
-/* line 118, ../sass/stylesheet.scss */
+/* line 137, ../sass/stylesheet.scss */
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
@@ -201,50 +211,50 @@ h6 {
   background-size: cover;
 }
 
-/* line 125, ../sass/stylesheet.scss */
+/* line 144, ../sass/stylesheet.scss */
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em;
 }
 
-/* line 131, ../sass/stylesheet.scss */
+/* line 150, ../sass/stylesheet.scss */
 .banner ul {
   margin-bottom: 0;
 }
 
-/* line 135, ../sass/stylesheet.scss */
+/* line 154, ../sass/stylesheet.scss */
 .banner-social-buttons {
   float: right;
   margin-top: 0;
 }
 
-/* line 142, ../sass/stylesheet.scss */
+/* line 161, ../sass/stylesheet.scss */
 .content-section-a h1 {
   font-weight: 1000;
   font-size: 24px;
 }
-/* line 151, ../sass/stylesheet.scss */
+/* line 170, ../sass/stylesheet.scss */
 .content-section-a ul li {
   font-size: 14px !important;
   line-height: 1.8em !important;
 }
 
-/* line 162, ../sass/stylesheet.scss */
+/* line 181, ../sass/stylesheet.scss */
 .content-section-b ul {
   margin-left: 15px;
 }
-/* line 165, ../sass/stylesheet.scss */
+/* line 184, ../sass/stylesheet.scss */
 .content-section-b ul li {
   line-height: 1.8em;
   font-size: 14px;
 }
-/* line 172, ../sass/stylesheet.scss */
+/* line 191, ../sass/stylesheet.scss */
 .content-section-b .profile_image {
   margin-top: 0px;
 }
 
-/* line 181, ../sass/stylesheet.scss */
+/* line 200, ../sass/stylesheet.scss */
 .content-section-projects .profile_image {
   margin-left: 50px;
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -257,63 +267,77 @@ h6 {
   width: 150px;
   height: 150px;
 }
-/* line 193, ../sass/stylesheet.scss */
+/* line 212, ../sass/stylesheet.scss */
 .content-section-projects p {
   color: black;
   text-align: center;
   margin-top: 10px;
   margin-left: 50px;
-  margin-bottom: 80px;
 }
-/* line 201, ../sass/stylesheet.scss */
+/* line 220, ../sass/stylesheet.scss */
 .content-section-projects a {
   display: inline-block;
   text-decoration: none;
 }
-/* line 206, ../sass/stylesheet.scss */
+/* line 225, ../sass/stylesheet.scss */
 .content-section-projects .section-heading-spacer {
-  width: 500px;
+  width: 600px;
+}
+/* line 228, ../sass/stylesheet.scss */
+.content-section-projects .moreinfo {
+  margin-bottom: 80px;
+  color: #128ee9;
+}
+
+/* line 239, ../sass/stylesheet.scss */
+.content-section-a ul {
+  margin-left: 15px;
+}
+/* line 242, ../sass/stylesheet.scss */
+.content-section-a ul li {
+  line-height: 1.8em;
+  font-size: 14px;
 }
 
 @media (max-width: 1199px) {
-  /* line 212, ../sass/stylesheet.scss */
+  /* line 253, ../sass/stylesheet.scss */
   ul.banner-social-buttons {
     float: left;
     margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
-  /* line 219, ../sass/stylesheet.scss */
+  /* line 260, ../sass/stylesheet.scss */
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
   }
 
-  /* line 225, ../sass/stylesheet.scss */
+  /* line 266, ../sass/stylesheet.scss */
   ul.banner-social-buttons > li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  /* line 231, ../sass/stylesheet.scss */
+  /* line 272, ../sass/stylesheet.scss */
   ul.banner-social-buttons > li:last-child {
     margin-bottom: 0;
   }
 }
-/* line 236, ../sass/stylesheet.scss */
+/* line 277, ../sass/stylesheet.scss */
 footer {
   padding: 0px 0;
   background-color: #f8f8f8;
 }
 
-/* line 241, ../sass/stylesheet.scss */
+/* line 282, ../sass/stylesheet.scss */
 p.copyright {
   margin: 0px 0 0;
 }
 
-/* line 244, ../sass/stylesheet.scss */
+/* line 285, ../sass/stylesheet.scss */
 .profile_image {
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
   -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -324,7 +348,7 @@ p.copyright {
   margin-top: 25px;
 }
 
-/* line 252, ../sass/stylesheet.scss */
+/* line 293, ../sass/stylesheet.scss */
 .top-Image {
   height: 40px;
   width: 40px;
@@ -337,7 +361,7 @@ p.copyright {
   margin-top: -10px;
 }
 
-/* line 263, ../sass/stylesheet.scss */
+/* line 304, ../sass/stylesheet.scss */
 .navbar-header p {
   margin-top: -30px;
   margin-left: 50px;

@@ -63,6 +63,14 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.intro-header
+{
+    h3
+    {
+        margin-top:10px;
+    }
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -85,6 +93,17 @@ h6 {
     .intro-divider {
         width: 100%;
     }
+    
+.content-section-projects
+{
+    
+    
+   
+    .section-heading-spacer
+    {width: 350px !important;}
+    
+   
+}
 }
 
 .network-name {
@@ -195,7 +214,7 @@ h6 {
         text-align: center;
         margin-top:10px;
         margin-left: 50px;
-        margin-bottom: 80px;
+       
     }
     
     a{
@@ -205,6 +224,13 @@ h6 {
     
     .section-heading-spacer
     {width: 600px;}
+    
+    .moreinfo
+    {
+        margin-bottom: 80px;
+        color: #128ee9;
+      
+    }
    
 }
 
