@@ -204,8 +204,23 @@ h6 {
     }
     
     .section-heading-spacer
-    {width: 500px;}
+    {width: 600px;}
    
+}
+
+.content-section-a
+{
+ ul {
+         margin-left: 15px;
+        
+        li{
+            line-height: 1.8em;
+            font-size: 14px;
+            
+        }
+    }
+    
+    
 }
 
 @media(max-width:1199px) {
